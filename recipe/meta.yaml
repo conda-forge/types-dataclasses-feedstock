@@ -1,5 +1,5 @@
 {% set name = "types-dataclasses" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-dataclasses-{{ version }}.tar.gz
-  sha256: 7188be20fbee7ba1ecfe166312014763ca738fd38040b42f0ea8691dfedbddaa
+  sha256: 248075d093d8f7c1541ce515594df7ae40233d1340afde11ce7125368c5209b8
 
 build:
   number: 0
